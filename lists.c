@@ -8,6 +8,7 @@
  *
  * Return: size of list
  */
+
 list_t *add_node(list_t **head, const char *str, int num)
 {
 	list_t *new_head;
@@ -33,6 +34,7 @@ list_t *add_node(list_t **head, const char *str, int num)
 	return (new_head);
 }
 
+
 /**
  * add_node_end - adds a node to the end of the list
  * @head: address of pointer to head node
@@ -41,6 +43,7 @@ list_t *add_node(list_t **head, const char *str, int num)
  *
  * Return: size of list
  */
+
 list_t *add_node_end(list_t **head, const char *str, int num)
 {
 	list_t *new_node, *node;
@@ -80,6 +83,7 @@ list_t *add_node_end(list_t **head, const char *str, int num)
  *
  * Return: size of list
  */
+
 size_t print_list_str(const list_t *h)
 {
 	size_t i = 0;
