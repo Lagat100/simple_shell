@@ -1,4 +1,3 @@
-:%y+
 #include "shell.h"
 
 /**
